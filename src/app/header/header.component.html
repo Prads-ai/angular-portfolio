@@ -1,0 +1,29 @@
+<header class="main-header">
+  <div class="main-header__logo-container">
+    <div class="main-header__logo-img-cont">
+      <img
+        [src]="avatarUrl"
+        alt="logo Image"
+        class="hidden main-header__logo-img"
+      />
+    </div>
+    <h4 class="main-header__logo-text"></h4>
+  </div>
+  <nav class="main-header__navigation">
+    <ul class="main-header__navigation-links">
+      <li class="main-header__navigation-link">
+        <a [routerLink]="'/home'"> Home </a>
+      </li>
+      <li class="main-header__navigation-link">
+        <a [routerLink]="'/about'"> About </a>
+      </li>
+      <li class="main-header__navigation-link">
+        <a [routerLink]="'/projects'"> Projects </a>
+      </li>
+      <li class="main-header__navigation-link">
+        <a [routerLink]="'/contact'"> Contact </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Add other header elements as needed -->
+</header>

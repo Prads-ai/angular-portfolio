@@ -1,0 +1,120 @@
+/* Styles for header and navigation */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333;
+  color: white;
+}
+
+.main-header__logo-img {
+  height: 50px;
+}
+
+.main-header__navigation-links {
+  display: flex;
+  list-style: none;
+}
+
+.main-header__navigation-link a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+/* Styles for home hero section */
+.home-hero {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/assets/nature.jpg");
+  background-size: cover;
+}
+
+.home-hero__content {
+  padding: 5rem;
+  position: relative;
+  top: 7rem;
+  margin-top: 5rem;
+  max-width: 120rem;
+  margin: auto;
+  width: 90%;
+  animation: downToUp 0.8s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
+  background-color: rgba(60, 60, 60, 0.5);
+}
+.home-hero__info {
+}
+
+.home-hero__heading-primary {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  margin-bottom: 5rem;
+  color: white;
+}
+
+.home-hero__btn-theme {
+  margin: 0 10px;
+}
+
+/* Styles for about section */
+.about {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.heading-primary__main h1 {
+  margin-bottom: 2rem;
+}
+.heading-primary__main p {
+  font-size: 2.3rem;
+  padding-inline: 3%;
+  text-align: center;
+}
+.heading_my-name {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.heading-secondary {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.projects__heading-secondary {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.resume {
+  position: relative;
+  top: 40px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  background-color: #3f51b5; /* Change background color as desired */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease; /* Animation for hover effect */
+  font-weight: semi-bold;
+}
+.resume:hover {
+  background-color: #283776; /* Change hover background color as desired */
+}
